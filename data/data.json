@@ -2120,26 +2120,39 @@
             "name": "Radio Control Unit",
             "key_name": "radio-control-unit",
             "category": "crafting3",
-            "time": 24,
+            "time": 48,
             "ingredients": [                
                 ["aluminum-casing", 32],
                 ["crystal-oscillator", 1],
                 ["computer", 1]
             ],
-            "product": ["radio-control-unit", 1]
+            "product": ["radio-control-unit", 2]
         },
         {
-            "name": "Alternate: Radio Control Unit",
-            "key_name": "alt-radio-control-unit",
+            "name": "Alternate: Radio Control System",
+            "key_name": "alt-radio-control-system",
             "category": "crafting3",
-            "time": 48,
+            "time": 40,
             "ingredients": [
-                ["heat-sink", 10],
-                ["supercomputer", 1],
-                ["quartz-crystal", 30]
+                ["quartz-crystal", 1],
+                ["circuit-board", 10],
+                ["aluminum-casing", 60],
+                ["rubber", 30]
             ],
             "product": ["radio-control-unit", 3]
         },
+        {
+            "name": "Alternate: Radio Connection Unit",
+            "key_name": "alt-radio-connection-unit",
+            "category": "crafting3",
+            "time": 16,
+            "ingredients": [
+                ["heat-sink", 4],
+                ["high-speed-connector", 2],
+                ["quartz-crystal", 12]
+            ],
+            "product": ["radio-control-unit", 1]
+        },        
         {
             "name": "Turbo Motor",
             "key_name": "turbo-motor",
