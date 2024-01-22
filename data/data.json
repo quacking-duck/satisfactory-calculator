@@ -589,6 +589,12 @@
             "stack_size": 100
         },
         {
+            "name": "Aluminum Casing",
+            "key_name": "aluminum-casing",
+            "tier": 7,
+            "stack_size": 100
+        },
+        {
             "name": "Heat Sink",
             "key_name": "heat-sink",
             "tier": 7,
@@ -2068,6 +2074,27 @@
             "product": ["alclad-aluminum-sheet", 4]
         },
         {
+            "name": "Aluminum Casing",
+            "key_name": "aluminum-casing",
+            "category": "crafting2",
+            "time": 2,
+            "ingredients": [
+                ["alclad-aluminum-sheet", 3]
+            ],
+            "product": ["aluminum-casing", 2]
+        },
+        {
+            "name": "Alternate: Alclad Casing",
+            "key_name": "alt-alclad-casing",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["alclad-aluminum-sheet", 20],
+                ["copper-ingot", 10]
+            ],
+            "product": ["aluminum-casing", 15]
+        },
+        {
             "name": "Heat Sink",
             "key_name": "heat-sink",
             "category": "crafting2",
@@ -2094,9 +2121,8 @@
             "key_name": "radio-control-unit",
             "category": "crafting3",
             "time": 24,
-            "ingredients": [
-                ["heat-sink", 4],
-                ["rubber", 16],
+            "ingredients": [                
+                ["aluminum-casing", 32],
                 ["crystal-oscillator", 1],
                 ["computer", 1]
             ],
