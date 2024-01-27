@@ -167,6 +167,7 @@ export function displayItems(spec, totals, ignore) {
         .classed("ignore", d => d.ignore)
         .attr("src", d => d.item.iconPath())
         .attr("title", d => d.item.name)
+        .attr("alt", d => d.item.name)
     row.selectAll("tt.item-rate")
         .text(d => spec.format.alignRate(d.itemRate))
     row.selectAll("img.belt-icon")
