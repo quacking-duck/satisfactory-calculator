@@ -111,6 +111,7 @@ export function displayItems(spec, totals, ignore) {
             .attr("width", 32)
             .attr("height", 32)
             .on("click", toggleIgnoreHandler)
+
     row.append("td")
         .classed("right-align", true)
         .append("tt")
@@ -125,10 +126,12 @@ export function displayItems(spec, totals, ignore) {
         .attr("width", 32)
         .attr("height", 32)
     beltCell.append(d =>  new Text(""))
+
     row.append("td")
         .classed("right-align", true)
         .append("tt")
             .classed("belt-count", true)
+
     // buildings
     let buildingCell = row.append("td")
         .classed("pad building", true)
@@ -137,6 +140,7 @@ export function displayItems(spec, totals, ignore) {
         .attr("width", 32)
         .attr("height", 32)
     buildingCell.append(d =>  new Text(""))
+
     row.append("td")
         .classed("right-align building", true)
         .append("tt")
@@ -146,6 +150,7 @@ export function displayItems(spec, totals, ignore) {
         .append("td")
             .attr("colspan", 4)
     */
+   
     // overclock
     let overclockCell = row.append("td")
         .classed("pad building overclock", true)
