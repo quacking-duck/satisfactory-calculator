@@ -102,6 +102,8 @@ export function displayItems(spec, totals, ignore) {
     let row = rows.enter()
         .append("tr")
             .classed("display-row", true)
+
+
     // items/m
     row.append("td")
         .append("img")
@@ -112,7 +114,9 @@ export function displayItems(spec, totals, ignore) {
     row.append("td")
         .classed("right-align", true)
         .append("tt")
-            .classed("item-rate", true)
+        .classed("item-rate", true)     
+
+   
     // belts
     let beltCell = row.append("td")
         .classed("pad", true)
@@ -120,7 +124,7 @@ export function displayItems(spec, totals, ignore) {
         .classed("icon belt-icon", true)
         .attr("width", 32)
         .attr("height", 32)
-    beltCell.append(d => new Text(" \u00d7"))
+    beltCell.append(d =>  new Text(""))
     row.append("td")
         .classed("right-align", true)
         .append("tt")
@@ -132,7 +136,7 @@ export function displayItems(spec, totals, ignore) {
         .classed("icon building-icon", true)
         .attr("width", 32)
         .attr("height", 32)
-    buildingCell.append(d => new Text(" \u00d7"))
+    buildingCell.append(d =>  new Text(""))
     row.append("td")
         .classed("right-align building", true)
         .append("tt")
@@ -200,7 +204,7 @@ export function displayItems(spec, totals, ignore) {
                 .attr("title", powerShard.name)
                 .attr("width", 32)
                 .attr("height", 32)
-            powerShardCell.append(d => new Text(" \u00d7"))
+            powerShardCell.append(d =>  new Text(""))
 
             buildingRow.insert("td", "td.power-shard-icon + *")
                 .classed("right-align building power-shard", true)
