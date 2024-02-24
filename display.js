@@ -125,7 +125,7 @@ export function displayItems(spec, totals, ignore) {
         .classed("icon belt-icon", true)
         .attr("width", 32)
         .attr("height", 32)
-    beltCell.append(d =>  new Text(""))
+    beltCell.append(d =>  new Text(" \u00d7"))
 
     row.append("td")
         .classed("right-align", true)
@@ -139,7 +139,7 @@ export function displayItems(spec, totals, ignore) {
         .classed("icon building-icon", true)
         .attr("width", 32)
         .attr("height", 32)
-    buildingCell.append(d =>  new Text(""))
+    buildingCell.append(d =>  new Text(" \u00d7"))
 
     row.append("td")
         .classed("right-align building", true)
@@ -209,7 +209,7 @@ export function displayItems(spec, totals, ignore) {
                 .attr("title", powerShard.name)
                 .attr("width", 32)
                 .attr("height", 32)
-            powerShardCell.append(d =>  new Text(""))
+            powerShardCell.append(d =>  new Text(" \u00d7"))
 
             buildingRow.insert("td", "td.power-shard-icon + *")
                 .classed("right-align building power-shard", true)

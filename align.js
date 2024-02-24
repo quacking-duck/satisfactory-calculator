@@ -58,7 +58,7 @@ export class Formatter {
             toAdd += 1
         }
         while (toAdd > 0) {
-            s += " "
+            s += "\u00A0"
             toAdd--
         }
         return s
