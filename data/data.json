@@ -153,7 +153,7 @@
         {"name": "Assembly Director System","key_name": "assembly-director-system","category": "crafting2","time": 80,"ingredients": [["adaptive-control-unit", 2],["supercomputer", 1]],"product": ["assembly-director-system", 1]},
         {"name": "Automated Wiring","key_name": "automated-wiring","category": "crafting2","time": 24,"ingredients": [["stator", 1],["cable", 20]],"product": ["automated-wiring", 1]},
         {"name": "Alternate: Automated Speed Wiring","key_name": "alt-automated-speed-wiring","category": "crafting3","time": 32,"ingredients": [["stator", 2],["wire", 40],["high-speed-connector", 1]],"product": ["automated-wiring", 4]},
-        {"name": "Battery","key_name": "battery","category": "crafting3","time": 3,"ingredients": [["sulfuric-acid", 25],["alumina-solution", 2],["aluminum-casing", 1]],"product": ["battery", 1]},
+        {"name": "Battery","key_name": "battery","category": "crafting3","time": 3,"ingredients": [["sulfuric-acid", 2.5],["alumina-solution", 2],["aluminum-casing", 1]],"product": ["battery", 1]},
         {"name": "Alternate: Classic Battery","key_name": "alt-classic-battery","category": "crafting3","time": 8,"ingredients": [["sulfur", 6],["alclad-aluminum-sheet", 7],["plastic", 8],["wire", 12]],"product": ["battery", 4]},
 
         {"name": "Cable","key_name": "cable","category": "crafting1","time": 2,"ingredients": [["wire", 2]],"product": ["cable", 1]},
