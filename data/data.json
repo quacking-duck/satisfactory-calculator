@@ -298,6 +298,7 @@
         {"name": "Alternate: Compacted Steel Ingot","key_name": "alt-compacted-steel-ingot","category": "smelting2","time": 16,"ingredients": [["iron-ore", 6],["compacted-coal", 3]],"product": ["steel-ingot", 10]},
         {"name": "Alternate: Solid Steel Ingot","key_name": "alt-solid-steel-ingot","category": "smelting2","time": 3,"ingredients": [["iron-ingot", 2],["coal", 2]],"product": ["steel-ingot", 3]},
         {"name": "Steel Pipe","key_name": "steel-pipe","category": "crafting1","time": 6,"ingredients": [["steel-ingot", 3]],"product": ["steel-pipe", 2]},
+        {"name": "Alternate: Iron Pipe","key_name": "alt-iron-pipe","category": "crafting1","time": 12,"ingredients": [["iron-ingot", 20]],"product": ["steel-pipe", 5]},
 
         {"name": "Sulfuric Acid","key_name": "sulfuric-acid","category": "refining","time": 6,"ingredients": [["sulfur", 5],["water", 5]],"product": ["sulfuric-acid", 5]},
         {"name": "Unpackage Sulfuric Acid","key_name": "unpackage-sulfuric-acid","category": "packaging","time": 1,"ingredients": [["packaged-sulfuric-acid", 1]],"product": ["sulfuric-acid", 1]},
